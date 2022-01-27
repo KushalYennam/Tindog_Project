@@ -1,0 +1,165 @@
+/* tags */
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.7rem;
+    line-height: 1.5;
+    /* margin-left: 1rem; */
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+
+
+/* classes */
+
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+
+
+.text-white {
+    font-size: 4%;
+    padding-left: 9%;
+}
+
+.col-lg-4 {
+    text-align: center;
+    padding: 4%;
+}
+
+.icon {
+    color: #f58999;
+    
+}
+
+
+.icon:hover {
+    color: #ff4e68;
+}
+
+.testimonial-image {
+    /* height: 7rem; */
+    width: 13%;
+    border-radius: 100%;
+    margin: 1%;
+}
+
+
+.press-logo {
+    width: 15%;
+    margin: 1.5%;
+}
+
+.press-logo-2 {
+    width: 2%;
+    margin: 1%;
+    margin-bottom: 3%;
+}
+
+.carousel-inner {
+    padding: 7% 15%;
+
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.action {
+    font-size: 55px;
+    color: #fff;
+    margin-bottom: 9%;
+}
+
+
+.title-image {
+    width: 60%;
+    transform: rotate(27deg);
+  
+    right: 10%;
+   
+    
+}
+
+@media (max-width:1028px) {
+    .title-image {
+       transform: rotate(0);
+
+    }
+}
+
+@media (max-width:1028px) {
+    #title  {
+        text-align: center;
+    }
+}
+
+
+
+
+/* Ids */
+
+#title {
+    background-color:#ff4e68;
+    
+    
+    
+    
+}
+
+#features {
+    
+    background-color: #fff;
+    
+    
+    
+
+}
+
+
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #f58999;
+    color: #fff;
+
+}
+
+
+#press {
+    text-align: center;
+    background-color: #f58999;
+    padding-bottom: 5%;
+    
+}
+
+
+#pricing {
+    padding-top: 5%;
+}
+
+
+#cta {
+    background-color: #ff4e68;
+    padding: 10% 17%;
+    text-align: center;
+}
+
+
+#footer {
+    padding: 10% 17%;
+    text-align: center;
+    background-color: #fff;
+
+}
